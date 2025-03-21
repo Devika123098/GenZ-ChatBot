@@ -82,7 +82,9 @@
 from flask import Flask, request, jsonify, render_template
 import os
 from dotenv import load_dotenv
-from google import genai
+# from google import genai
+import google.generativeai as genai
+
 
 load_dotenv()
 
